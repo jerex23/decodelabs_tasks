@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeremiah Ajala |Software Engineer & CLoud Security Professional</title>
+    <meta name="description"
+        content="Portfolio of Jeremiah Ajala -Software Engineer & Cloud Security Enthusiast specializing in Ethical Hacking, Penetration Testing, Cloud Security, and AI-driven Threat Detection.">
+    <meta name="keywords"
+        content="Jeremiah Ajala, Software Engineer, Cybersecurity, Ethical Hacking, Penetration Testing, ThreatVision, Python, FastAPI, Supabase, Babcock University">
+    <meta name="author" content="Jeremiah Ajala">
+
+    <!-- Open Graph / Social Meta Tags -->
+    <meta property="og:title" content="Jeremiah Ajala | Software Engineer & Cloud Security Professional">
+    <meta property="og:description"
+        content="Driven software engineer & cybersecurity enthusiast focused on building secure systems, threat detection AI, and cloud infrastructure.">
+    <meta property="og:type" content="website">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:ital,wght@0,400;0,500;0,700;1,400&display=swap"
+        rel="stylesheet">
+
+    <!-- FontAwesome & Lucide Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="dark-theme">
+    <!-- Cyber Grid Canvas Background -->
+    <canvas id="cyber-canvas"></canvas>
+
+    <!-- Main Background Glow Highlights -->
+    <div class="bg-glow bg-glow-1"></div>
+    <div class="bg-glow bg-glow-2"></div>
+    <div class="bg-glow bg-glow-3"></div>
+
+    <!-- Navigation Header -->
+    <header id="main-header">
+        <div class="container nav-container">
+            <a href="#hero" class="brand-logo" aria-label="Jeremiah Ajala Home">
+                <span class="logo-terminal-symbol">&gt;_</span>
+                <span class="logo-text">Jeremiah<span class="highlight">.Ajala</span></span>
+            </a>
+
+            <nav id="navbar">
+                <ul class="nav-links">
+                    <li><a href="#hero" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                    <li><a href="#education" class="nav-link">Education</a></li>
+                    <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <a href="#contact" class="btn btn-sm btn-outline-cyan">
+                    <i class="fa-solid fa-paper-plane"></i> Let's Connect
+                </a>
+                <button id="mobile-toggle" aria-label="Toggle navigation menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Drawer Navigation -->
+    <div id="mobile-menu-overlay" class="mobile-overlay"></div>
+    <div id="mobile-menu" class="mobile-drawer">
+        <div class="mobile-menu-header">
+            <div class="brand-logo">
+                <span class="logo-terminal-symbol">&gt;_</span>
+                <span class="logo-text">JA<span class="highlight">.Sec</span></span>
+            </div>
+            <button id="mobile-close" aria-label="Close menu"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <ul class="mobile-links">
+            <li><a href="#hero" class="mobile-link"><i class="fa-solid fa-house"></i> Home</a></li>
+            <li><a href="#about" class="mobile-link"><i class="fa-solid fa-user-shield"></i> About Me</a></li>
+            <li><a href="#projects" class="mobile-link"><i class="fa-solid fa-code"></i> Projects</a></li>
+            <li><a href="#experience" class="mobile-link"><i class="fa-solid fa-briefcase"></i> Experience</a></li>
+            <li><a href="#education" class="mobile-link"><i class="fa-solid fa-graduation-cap"></i> Education</a></li>
+            <li><a href="#certifications" class="mobile-link"><i class="fa-solid fa-certificate"></i> Certifications</a>
+            </li>
+            <li><a href="#skills" class="mobile-link"><i class="fa-solid fa-microchip"></i> Skills</a></li>
+            <li><a href="#contact" class="mobile-link"><i class="fa-solid fa-envelope"></i> Contact</a></li>
+        </ul>
+        <div class="mobile-socials">
+            <a href="https://linkedin.com/in/JeremiahAjala" target="_blank" aria-label="LinkedIn"><i
+                    class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/jerex23" target="_blank" aria-label="GitHub"><i
+                    class="fa-brands fa-github"></i></a>
+            <a href="https://x.com/jerex_1" target="_blank" aria-label="X Twitter"><i
+                    class="fa-brands fa-x-twitter"></i></a>
+            <a href="mailto:jerryajala@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+    </div>
+
+    <!-- Main Content Area -->
+    <main>
+        <!-- 1. HERO SECTION -->
+        <section id="hero" class="hero-section">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <div class="status-badge pulse">
+                        <span class="status-dot"></span>
+                        <span class="status-text">Available for Cybersecurity & Software Engineering Roles</span>
+                    </div>
+
+                    <h1 class="hero-title">
+                        JEREMIAH <span class="text-gradient">AJALA</span>
+                    </h1>
+
+                    <h2 class="hero-subtitle">
+                        Software Engineer <span class="divider">|</span> Cloud Security Professional
+                    </h2>
+
+                    <div class="hero-bio-quote">
+                        <i class="fa-solid fa-quote-left quote-icon"></i>
+                        <p>
+                            Software engineer with a keen passion for ethical hacking, penetration testing,
+                            vulnerability assessment, and cloud security. I am driven, detail-focused, versatile, and
+                            technically proficient, continuously developing my skills to make a meaningful impact on
+                            organizational security.
+                        </p>
+                    </div>
+
+                    <div class="hero-cta-group">
+                        <a href="#experience" class="btn btn-primary">
+                            <span>View My Experience</span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <i class="fa-solid fa-paper-plane"></i>
+                            <span>Get In Touch</span>
+                        </a>
+                    </div>
+
+                    <div class="hero-social-row">
+                        <span class="social-label">Connect:</span>
+                        <div class="social-links">
+                            <a href="https://linkedin.com/in/JeremiahAjala" target="_blank" class="social-btn"
+                                title="LinkedIn Profile">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://github.com/jerex23" target="_blank" class="social-btn"
+                                title="GitHub Repository">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                            <a href="https://x.com/jerex_1" target="_blank" class="social-btn" title="X (Twitter)">
+                                <i class="fa-brands fa-x-twitter"></i>
+                            </a>
+                            <a href="https://AjalaJeremiah.com" target="_blank" class="social-btn"
+                                title="Personal Website">
+                                <i class="fa-solid fa-globe"></i>
+                            </a>
+                            <a href="mailto:jerryajala@gmail.com" class="social-btn" title="Send Email">
+                                <i class="fa-solid fa-envelope"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Terminal & Visual Accents -->
+                <div class="hero-visual">
+                    <div class="cyber-terminal-card">
+                        <div class="terminal-header">
+                            <div class="terminal-dots">
+                                <span class="dot dot-red"></span>
+                                <span class="dot dot-yellow"></span>
+                                <span class="dot dot-green"></span>
+                            </div>
+                            <div class="terminal-title">
+                                <i class="fa-solid fa-terminal"></i> security_shell.sh - bash
+                            </div>
+                            <div class="terminal-badge">LIVE</div>
+                        </div>
+                        <div class="terminal-body">
+                            <div class="terminal-line">
+                                <span class="prompt">user@ajala-sec:~$</span> <span class="cmd">whoami</span>
+                            </div>
+                            <div class="terminal-response highlight-cyan">
+                                Jeremiah Ajala [BSc Software Engineering | Cybersecurity Professional]
+                            </div>
+
+                            <div class="terminal-line">
+                                <span class="prompt">user@ajala-sec:~$</span> <span class="cmd">cat
+                                    capabilities.json</span>
+                            </div>
+                            <div class="terminal-response code-block">
+                                <span class="json-key">"core_focus"</span>: [<span class="json-str">"Ethical
+                                    Hacking"</span>, <span class="json-str">"Penetration Testing"</span>, <span
+                                    class="json-str">"Cloud Security"</span>],
+                                <span class="json-key">"featured_system"</span>: <span class="json-str">"ThreatVision AI
+                                    Malware Sniffer"</span>,
+                                <span class="json-key">"location"</span>: <span class="json-str">"Lagos / Ogun State,
+                                    Nigeria"</span>,
+                                <span class="json-key">"status"</span>: <span class="json-str">"Ready for Security
+                                    Engineering & Full Stack Challenges"</span>
+                            </div>
+
+                            <div class="terminal-line">
+                                <span class="prompt">user@ajala-sec:~$</span> <span class="cmd"
+                                    id="typing-cmd"></span><span class="typing-cursor">█</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="floating-metrics">
+                        <div class="metric-card glow-cyan">
+                            <i class="fa-solid fa-shield-halved metric-icon"></i>
+                            <div>
+                                <span class="metric-value">ThreatVision</span>
+                                <span class="metric-label">AI Intrusion System</span>
+                            </div>
+                        </div>
+                        <div class="metric-card glow-emerald">
+                            <i class="fa-solid fa-lock metric-icon"></i>
+                            <div>
+                                <span class="metric-value">Certificated</span>
+                                <span class="metric-label">Google Cybersecurity</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. ABOUT ME SECTION -->
+        <section id="about" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag"><i class="fa-solid fa-user-shield"></i> PROFILE & HIGHLIGHTS</span>
+                    <h2 class="section-title">ABOUT <span class="text-gradient">ME</span></h2>
+                    <p class="section-subtitle">Bridging software engineering precision with aggressive security
+                        defensive strategies.</p>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-card glass-card scroll-reveal">
+                        <div class="card-icon-box cyan-box">
+                            <i class="fa-brands fa-python"></i>
+                        </div>
+                        <h3>Python & Scripting Mastery</h3>
+                        <p>Extensive hands-on experience in scripting languages, especially Python, for automating
+                            cybersecurity workflows, data parsing, machine learning inference, and web scrapers.</p>
+                    </div>
+
+                    <div class="about-card glass-card scroll-reveal" style="animation-delay: 0.1s;">
+                        <div class="card-icon-box emerald-box">
+                            <i class="fa-solid fa-list-check"></i>
+                        </div>
+                        <h3>Task & Project Management</h3>
+                        <p>Demonstrated ability to manage multiple complex technical projects simultaneously,
+                            maintaining strict timelines, high operational standards, and clear cross-functional
+                            alignment.</p>
+                    </div>
+
+                    <div class="about-card glass-card scroll-reveal" style="animation-delay: 0.2s;">
+                        <div class="card-icon-box purple-box">
+                            <i class="fa-solid fa-terminal"></i>
+                        </div>
+                        <h3>Cybersecurity Tooling</h3>
+                        <p>Proficient with industry-standard offensive and defensive security software including Kali
+                            Linux, Metasploit, Burp Suite, Nmap, Wireshark, and Check Point Harmony Endpoint.</p>
+                    </div>
+
+                    <div class="about-card glass-card scroll-reveal" style="animation-delay: 0.3s;">
+                        <div class="card-icon-box blue-box">
+                            <i class="fa-solid fa-comments"></i>
+                        </div>
+                        <h3>Executive Communication</h3>
+                        <p>Skilled in translating intricate technical vulnerabilities, log analyses, and software
+                            architecture concepts into clear executive summaries and management-level terminology.</p>
+                    </div>
+
+                    <div class="about-card glass-card span-2-lg scroll-reveal" style="animation-delay: 0.4s;">
+                        <div class="card-icon-box orange-box">
+                            <i class="fa-solid fa-shield-virus"></i>
+                        </div>
+                        <div class="about-card-large-content">
+                            <h3>Ethical Hacking & Cloud Security Core Focus</h3>
+                            <p>Deeply committed to proactive threat identification, vulnerability assessment,
+                                penetration testing, and securing cloud infrastructure. Constantly researching emerging
+                                threats, ransomware mechanisms, and cloud security compliance standards.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 9. PROJECTS SECTION (Featured threatvision highlighted) -->
+        <section id="projects" class="section bg-section-alt">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag"><i class="fa-solid fa-code"></i> FEATURED WORK</span>
+                    <h2 class="section-title">FEATURED <span class="text-gradient">PROJECTS</span></h2>
+                    <p class="section-subtitle">Building solutions at the intersection of Software Engineering,
+                        Cybersecurity, and Innovation.</p>
+                </div>
+
+                <!-- Category Filter Buttons -->
+                <div class="filter-bar">
+                    <button class="filter-btn active" data-filter="all">All Projects</button>
+                    <button class="filter-btn" data-filter="security">Cybersecurity & AI</button>
+                    <button class="filter-btn" data-filter="web">Web Development</button>
+                    <button class="filter-btn" data-filter="tools">Automation & Tools</button>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- FEATURED PROJECT: ThreatVision -->
+                    <div class="project-card featured-project glass-card scroll-reveal" data-category="security">
+                        <div class="featured-badge">
+                            <i class="fa-solid fa-star"></i> FLAGSHIP PROJECT
+                        </div>
+
+                        <div class="project-content">
+                            <div class="project-meta">
+                                <span class="project-category"><i class="fa-solid fa-brain"></i> AI & Network
+                                    Security</span>
+                                <h3 class="project-title">ThreatVision</h3>
+                                <h4 class="project-tagline">AI-Powered Network Intrusion & Malware Detection System</h4>
+                            </div>
+
+                            <p class="project-description">
+                                An intelligent cybersecurity system designed to monitor network activity and detect
+                                potential intrusions and malicious activity in real-time. The project utilizes machine
+                                learning and AI-based technologies (Hugging Face models & Scapy packet inspection) to
+                                analyze network traffic patterns and identify suspicious cyber threats before
+                                escalation.
+                            </p>
+
+                            <div class="tech-stack-badges">
+                                <span class="tech-badge">Python</span>
+                                <span class="tech-badge">FastAPI</span>
+                                <span class="tech-badge">Scapy</span>
+                                <span class="tech-badge">Hugging Face</span>
+                                <span class="tech-badge">Supabase</span>
+                                <span class="tech-badge">React</span>
+                                <span class="tech-badge">TypeScript</span>
+                                <span class="tech-badge">Tailwind CSS</span>
+                                <span class="tech-badge">Docker</span>
+                            </div>
+
+                            <div class="project-actions">
+                                <button class="btn btn-sm btn-primary open-modal-btn" data-project="threatvision">
+                                    <i class="fa-solid fa-circle-info"></i> View Project Details
+                                </button>
+                                <a href="https://github.com/jerex23" target="_blank" class="btn btn-sm btn-outline">
+                                    <i class="fa-brands fa-github"></i> GitHub Repository
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="featured-visual">
+                            <div class="cyber-graphic-box">
+                                <div class="radar-sweep"></div>
+                                <div class="graphic-node center-node">
+                                    <i class="fa-solid fa-shield-cat"></i>
+                                    <span>AI ENGINE</span>
+                                </div>
+                                <div class="graphic-node node-1"><i class="fa-solid fa-network-wired"></i> Traffic</div>
+                                <div class="graphic-node node-2"><i class="fa-solid fa-bug"></i> Malware</div>
+                                <div class="graphic-node node-3"><i class="fa-solid fa-bell"></i> Alerts</div>
+                                <div class="connection-line line-1"></div>
+                                <div class="connection-line line-2"></div>
+                                <div class="connection-line line-3"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Port Scanner Web Application -->
+                    <div class="project-card glass-card scroll-reveal" data-category="security">
+                        <div class="project-header-icon">
+                            <i class="fa-solid fa-network-wired"></i>
+                        </div>
+                        <div class="project-content">
+                            <span class="project-category">Network Security</span>
+                            <h3 class="project-title">Port Scanner Web Application</h3>
+                            <h4 class="project-tagline">Network Security and Port Scanning Tool</h4>
+                            <p class="project-description">
+                                A web-based cybersecurity application designed to scan target systems for open ports and
+                                provide detailed insights into potential network services, active banners, and security
+                                vulnerabilities.
+                            </p>
+                            <div class="tech-stack-badges">
+                                <span class="tech-badge">Python</span>
+                                <span class="tech-badge">Flask</span>
+                                <span class="tech-badge">Scapy</span>
+                                <span class="tech-badge">HTML/CSS</span>
+                                <span class="tech-badge">JavaScript</span>
+                            </div>
+                            <div class="project-actions">
+                                <button class="btn btn-sm btn-secondary open-modal-btn" data-project="portscanner">
+                                    <i class="fa-solid fa-eye"></i> View Details
+                                </button>
+                                <a href="https://github.com/jerex23" target="_blank" class="btn btn-sm btn-icon-only"
+                                    title="GitHub Repo">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- SJHaven -->
+                    <div class="project-card glass-card scroll-reveal" data-category="web">
+                        <div class="project-header-icon emerald-icon">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                        <div class="project-content">
+                            <span class="project-category">Full-Stack E-Commerce</span>
+                            <h3 class="project-title">SJHaven</h3>
+                            <h4 class="project-tagline">Modern E-Commerce Platform</h4>
+                            <p class="project-description">
+                                A modern e-commerce application designed to provide users with a seamless online
+                                shopping experience, including dynamic product listings, secure user authentication,
+                                cart state management, and Supabase database integration.
+                            </p>
+                            <div class="tech-stack-badges">
+                                <span class="tech-badge">React</span>
+                                <span class="tech-badge">Supabase</span>
+                                <span class="tech-badge">JavaScript</span>
+                                <span class="tech-badge">HTML5</span>
+                                <span class="tech-badge">CSS3</span>
+                            </div>
+                            <div class="project-actions">
+                                <button class="btn btn-sm btn-secondary open-modal-btn" data-project="sjhaven">
+                                    <i class="fa-solid fa-eye"></i> View Details
+                                </button>
+                                <a href="https://github.com/jerex23" target="_blank" class="btn btn-sm btn-icon-only"
+                                    title="GitHub Repo">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Web Crawler -->
+                    <div class="project-card glass-card scroll-reveal" data-category="tools">
+                        <div class="project-header-icon purple-icon">
+                            <i class="fa-solid fa-spider"></i>
+                        </div>
+                        <div class="project-content">
+                            <span class="project-category">Data & Automation</span>
+                            <h3 class="project-title">Web Crawler</h3>
+                            <h4 class="project-tagline">Automated Web Data Collection Tool</h4>
+                            <p class="project-description">
+                                An automated web crawler developed to navigate multi-page web architecture, parse
+                                unstructured DOM content, and collect relevant metadata for security research,
+                                vulnerability mapping, and data analysis.
+                            </p>
+                            <div class="tech-stack-badges">
+                                <span class="tech-badge">Python</span>
+                                <span class="tech-badge">Scrapy</span>
+                                <span class="tech-badge">Data Mining</span>
+                            </div>
+                            <div class="project-actions">
+                                <button class="btn btn-sm btn-secondary open-modal-btn" data-project="webcrawler">
+                                    <i class="fa-solid fa-eye"></i> View Details
+                                </button>
+                                <a href="https://github.com/jerex23" target="_blank" class="btn btn-sm btn-icon-only"
+                                    title="GitHub Repo">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. PROFESSIONAL EXPERIENCE SECTION -->
+        <section id="experience" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag"><i class="fa-solid fa-briefcase"></i> WORK HISTORY</span>
+                    <h2 class="section-title">PROFESSIONAL <span class="text-gradient">EXPERIENCE</span></h2>
+                    <p class="section-subtitle">Practical industry experience in enterprise endpoint protection, network
+                        firewalls, and cloud infrastructure.</p>
+                </div>
+
+                <div class="experience-timeline">
+                    <div class="timeline-item glass-card scroll-reveal">
+                        <div class="timeline-marker">
+                            <i class="fa-solid fa-shield-halved"></i>
+                        </div>
+
+                        <div class="timeline-content">
+                            <div class="exp-header">
+                                <div>
+                                    <h3 class="exp-role">Software Engineer Intern</h3>
+                                    <h4 class="exp-company">
+                                        <i class="fa-solid fa-building"></i> West Atlantic Energy Nigeria Ltd
+                                        <span class="exp-location"><i class="fa-solid fa-location-dot"></i> Lagos,
+                                            Nigeria</span>
+                                    </h4>
+                                </div>
+                                <div class="exp-date">
+                                    <i class="fa-regular fa-calendar"></i> Jan 2025 – Jun 2025
+                                </div>
+                            </div>
+
+                            <!-- Industry Highlights Visual Pills -->
+                            <div class="exp-topics">
+                                <span class="topic-pill"><i class="fa-solid fa-code"></i> Software Engineering</span>
+                                <span class="topic-pill"><i class="fa-solid fa-user-lock"></i> Cybersecurity</span>
+                                <span class="topic-pill"><i class="fa-solid fa-cloud"></i> Cloud Security</span>
+                                <span class="topic-pill"><i class="fa-solid fa-fire-burner"></i> Check Point
+                                    Firewall</span>
+                                <span class="topic-pill"><i class="fa-solid fa-desktop"></i> Endpoint Protection</span>
+                            </div>
+
+                            <ul class="exp-responsibilities">
+                                <li>
+                                    <i class="fa-solid fa-shield-cat bullet-icon"></i>
+                                    <span>Managed digital certifications and automated the generation of Offshore Safety
+                                        Permits (OSP cards) to ensure strict compliance with offshore safety
+                                        protocols.</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-wrench bullet-icon"></i>
+                                    <span>Provided technical support and troubleshooting for complex system issues,
+                                        including printer configurations, OneDrive cloud storage sync, and endpoint
+                                        security management using <strong>Check Point Harmony Endpoint</strong>.</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-lock bullet-icon"></i>
+                                    <span>Implemented advanced security measures, including firewall configuration,
+                                        network traffic filtering with <strong>Check Point Next-Generation
+                                            Firewalls</strong>, and automated security patching across company
+                                        assets.</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-chalkboard-user bullet-icon"></i>
+                                    <span>Conducted company-wide employee cybersecurity awareness training targeting
+                                        phishing attacks, ransomware prevention, password hygiene, and social
+                                        engineering threats.</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-sliders bullet-icon"></i>
+                                    <span>Monitored and maintained endpoint security systems, ensuring device
+                                        compliance, remote wiping capabilities, and BitLocker encryption policies via
+                                        <strong>Microsoft Intune</strong> and Check Point platforms.</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. EDUCATION SECTION -->
+        <section id="education" class="section bg-section-alt">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag"><i class="fa-solid fa-graduation-cap"></i> ACADEMIC BACKGROUND</span>
+                    <h2 class="section-title">EDUCATION <span class="text-gradient">TIMELINE</span></h2>
+                    <p class="section-subtitle">Strong academic foundation in computer science principles and software
+                        engineering.</p>
+                </div>
+
+                <div class="education-grid">
+                    <div class="education-card glass-card scroll-reveal">
+                        <div class="edu-icon-badge">
+                            <i class="fa-solid fa-university"></i>
+                        </div>
+                        <div class="edu-details">
+                            <span class="edu-year">Bachelor of Science</span>
+                            <h3 class="edu-institution">Babcock University</h3>
+                            <h4 class="edu-degree">BSc in Software Engineering</h4>
+                            <p class="edu-desc">Focused on software architecture, algorithms, database systems,
+                                object-oriented design, network security, and cryptography principles.</p>
+                        </div>
+                    </div>
+
+                    <div class="education-card glass-card scroll-reveal" style="animation-delay: 0.15s;">
+                        <div class="edu-icon-badge emerald-badge">
+                            <i class="fa-solid fa-school"></i>
+                        </div>
+                        <div class="edu-details">
+                            <span class="edu-year">Secondary Education</span>
+                            <h3 class="edu-institution">Deeper Life High School</h3>
+                            <h4 class="edu-degree">Senior Secondary Certificate Examination (SSCE)</h4>
+                            <p class="edu-desc">Graduated with top academic standing, excelling in Mathematics, Physics,
+                                Computer Studies, and Information Technology.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. CERTIFICATIONS SECTION -->
+        <section id="certifications" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag"><i class="fa-solid fa-certificate"></i> CREDENTIALS</span>
+                    <h2 class="section-title">PROFESSIONAL <span class="text-gradient">CERTIFICATIONS</span></h2>
+                    <p class="section-subtitle">Verified achievements validating technical competence in security,
+                        databases, and SEO.</p>
+                </div>
+
+                <div class="certifications-grid">
+                    <div class="cert-card glass-card scroll-reveal">
+                        <div class="cert-header">
+                            <div class="cert-logo google-blue">
+                                <i class="fa-brands fa-google"></i>
+                            </div>
+                            <span class="cert-badge">Verified Credential</span>
+                        </div>
+                        <h3 class="cert-title">Google Cybersecurity Professional Certification</h3>
+                        <p class="cert-issuer">Google / Coursera</p>
+                        <p class="cert-desc">Covers security risk compliance, Python automation, Linux command line,
+                            SIEM tools, packet analysis, incident detection, and response frameworks.</p>
+                        <div class="cert-footer">
+                            <span class="cert-skill-tag"><i class="fa-solid fa-shield-virus"></i> Cybersecurity</span>
+                        </div>
+                    </div>
+
+                    <div class="cert-card glass-card scroll-reveal" style="animation-delay: 0.1s;">
+                        <div class="cert-header">
+                            <div class="cert-logo sololearn-purple">
+                                <i class="fa-solid fa-database"></i>
+                            </div>
+                            <span class="cert-badge">Verified Credential</span>
+                        </div>
+                        <h3 class="cert-title">Sololearn — SQL Intermediate</h3>
+                        <p class="cert-issuer">Sololearn</p>
+                        <p class="cert-desc">Validates advanced database query formulation, relational data modeling,
+                            indexing, joins, aggregate functions, and database optimization techniques.</p>
+                        <div class="cert-footer">
+                            <span class="cert-skill-tag"><i class="fa-solid fa-table"></i> Database Systems</span>
+                        </div>
+                    </div>
+
+                    <div class="cert-card glass-card scroll-reveal" style="animation-delay: 0.2s;">
+                        <div class="cert-header">
+                            <div class="cert-logo squarespace-black">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                            <span class="cert-badge">Verified Credential</span>
+                        </div>
+                        <h3 class="cert-title">Squarespace — Advanced SEO</h3>
+                        <p class="cert-issuer">Squarespace Expert Series</p>
+                        <p class="cert-desc">Covers search engine optimization architecture, metadata indexing, web
+                            performance tuning, structure markup, and technical organic reach strategies.</p>
+                        <div class="cert-footer">
+                            <span class="cert-skill-tag"><i class="fa-solid fa-chart-line"></i> Web Performance</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. TECHNICAL SKILLS SECTION -->
+        <section id="skills" class="section bg-section-alt">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag"><i class="fa-solid fa-microchip"></i> KNOWLEDGE BASE</span>
+                    <h2 class="section-title">TECHNICAL <span class="text-gradient">SKILLS</span></h2>
+                    <p class="section-subtitle">Proficiencies categorized by domain, technologies, and security
+                        frameworks.</p>
+                </div>
+
+                <div class="skills-wrapper">
+                    <!-- Category 1: Cybersecurity & Security -->
+                    <div class="skills-category-card glass-card scroll-reveal">
+                        <div class="category-header">
+                            <i class="fa-solid fa-user-secret category-icon cyan-text"></i>
+                            <h3>Cybersecurity & Security</h3>
+                        </div>
+                        <div class="skill-pills-container">
+                            <div class="skill-pill"><i class="fa-solid fa-linux"></i> Kali Linux</div>
+                            <div class="skill-pill"><i class="fa-solid fa-network-wired"></i> Nmap</div>
+                            <div class="skill-pill"><i class="fa-solid fa-wave-square"></i> Wireshark</div>
+                            <div class="skill-pill"><i class="fa-solid fa-bug"></i> Metasploit</div>
+                            <div class="skill-pill"><i class="fa-solid fa-shield-halved"></i> Burp Suite</div>
+                            <div class="skill-pill"><i class="fa-solid fa-diagram-project"></i> MITRE ATT&CK Framework
+                            </div>
+                            <div class="skill-pill"><i class="fa-solid fa-magnifying-glass-chart"></i> Vulnerability
+                                Assessment</div>
+                            <div class="skill-pill"><i class="fa-solid fa-unlock-keyhole"></i> Penetration Testing</div>
+                        </div>
+                    </div>
+
+                    <!-- Category 2: Programming & Development -->
+                    <div class="skills-category-card glass-card scroll-reveal" style="animation-delay: 0.1s;">
+                        <div class="category-header">
+                            <i class="fa-solid fa-code category-icon emerald-text"></i>
+                            <h3>Programming & Development</h3>
+                        </div>
+                        <div class="skill-pills-container">
+                            <div class="skill-pill"><i class="fa-brands fa-python"></i> Python</div>
+                            <div class="skill-pill"><i class="fa-solid fa-chart-simple"></i> NumPy</div>
+                            <div class="skill-pill"><i class="fa-solid fa-square-root-variable"></i> SciPy</div>
+                            <div class="skill-pill"><i class="fa-solid fa-bolt"></i> FastAPI</div>
+                            <div class="skill-pill"><i class="fa-solid fa-database"></i> SQL</div>
+                            <div class="skill-pill"><i class="fa-brands fa-js"></i> JavaScript</div>
+                            <div class="skill-pill"><i class="fa-brands fa-react"></i> React</div>
+                            <div class="skill-pill"><i class="fa-brands fa-node-js"></i> Node.js</div>
+                            <div class="skill-pill"><i class="fa-brands fa-css3-alt"></i> CSS3</div>
+                            <div class="skill-pill"><i class="fa-solid fa-wind"></i> Tailwind CSS</div>
+                        </div>
+                    </div>
+
+                    <!-- Category 3: Tools & Platforms -->
+                    <div class="skills-category-card glass-card scroll-reveal" style="animation-delay: 0.2s;">
+                        <div class="category-header">
+                            <i class="fa-solid fa-screwdriver-wrench category-icon purple-text"></i>
+                            <h3>Tools & Platforms</h3>
+                        </div>
+                        <div class="skill-pills-container">
+                            <div class="skill-pill"><i class="fa-solid fa-bolt-lightning"></i> Supabase</div>
+                            <div class="skill-pill"><i class="fa-brands fa-git-alt"></i> Git & GitHub</div>
+                            <div class="skill-pill"><i class="fa-brands fa-linux"></i> Linux OS</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 7. SOFT SKILLS SECTION -->
+                <div class="soft-skills-block">
+                    <h3 class="sub-section-title"><i class="fa-solid fa-brain"></i> Professional & Interpersonal
+                        Strengths</h3>
+                    <div class="soft-skills-grid">
+                        <div class="soft-skill-card glass-card">
+                            <i class="fa-solid fa-comments soft-icon"></i>
+                            <span>Communication</span>
+                        </div>
+                        <div class="soft-skill-card glass-card">
+                            <i class="fa-solid fa-people-group soft-icon"></i>
+                            <span>Teamwork</span>
+                        </div>
+                        <div class="soft-skill-card glass-card">
+                            <i class="fa-solid fa-bullseye soft-icon"></i>
+                            <span>Attention to Detail</span>
+                        </div>
+                        <div class="soft-skill-card glass-card">
+                            <i class="fa-solid fa-puzzle-piece soft-icon"></i>
+                            <span>Problem Solving</span>
+                        </div>
+                        <div class="soft-skill-card glass-card">
+                            <i class="fa-solid fa-lightbulb soft-icon"></i>
+                            <span>Critical Thinking</span>
+                        </div>
+                        <div class="soft-skill-card glass-card">
+                            <i class="fa-solid fa-list-check soft-icon"></i>
+                            <span>Task Management</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 8. CONTACT SECTION -->
+        <section id="contact" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag"><i class="fa-solid fa-paper-plane"></i> INITIATE CONTACT</span>
+                    <h2 class="section-title">GET IN <span class="text-gradient">TOUCH</span></h2>
+                    <p class="section-subtitle">Interested in security audits, software engineering projects, or job
+                        opportunities? Reach out!</p>
+                </div>
+
+                <div class="contact-grid">
+                    <!-- Contact Info Card -->
+                    <div class="contact-info-card glass-card scroll-reveal">
+                        <h3>Contact Information</h3>
+                        <p class="contact-lead">Feel free to connect directly through email, phone, or any of my social
+                            profiles.</p>
+
+                        <div class="info-items-list">
+                            <div class="info-item">
+                                <div class="info-icon">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </div>
+                                <div class="info-content">
+                                    <span class="info-label">Email</span>
+                                    <a href="mailto:jerryajala@gmail.com" class="info-val">jerryajala@gmail.com</a>
+                                    <button class="copy-btn" data-copy="jerryajala@gmail.com" title="Copy email">
+                                        <i class="fa-regular fa-copy"></i>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="info-item">
+                                <div class="info-icon">
+                                    <i class="fa-solid fa-phone"></i>
+                                </div>
+                                <div class="info-content">
+                                    <span class="info-label">Phone</span>
+                                    <a href="tel:+2348123524860" class="info-val">+234 812 352 4860</a>
+                                    <button class="copy-btn" data-copy="+2348123524860" title="Copy phone number">
+                                        <i class="fa-regular fa-copy"></i>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="info-item">
+                                <div class="info-icon">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                </div>
+                                <div class="info-content">
+                                    <span class="info-label">Location</span>
+                                    <span class="info-val text-muted">Plot 10 Ayanbisi Street, Loburo, Mowe, Ogun State,
+                                        Nigeria</span>
+                                </div>
+                            </div>
+
+                            <div class="info-item">
+                                <div class="info-icon">
+                                    <i class="fa-solid fa-globe"></i>
+                                </div>
+                                <div class="info-content">
+                                    <span class="info-label">Website</span>
+                                    <a href="https://AjalaJeremiah.com" target="_blank"
+                                        class="info-val">AjalaJeremiah.com</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contact-socials-block">
+                            <span>Follow & Connect:</span>
+                            <div class="social-links">
+                                <a href="https://linkedin.com/in/JeremiahAjala" target="_blank" class="social-btn"
+                                    title="LinkedIn">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </a>
+                                <a href="https://github.com/jerex23" target="_blank" class="social-btn" title="GitHub">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                                <a href="https://x.com/jerex_1" target="_blank" class="social-btn" title="X (Twitter)">
+                                    <i class="fa-brands fa-x-twitter"></i>
+                                </a>
+                                <a href="https://AjalaJeremiah.com" target="_blank" class="social-btn" title="Website">
+                                    <i class="fa-solid fa-globe"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div class="contact-form-card glass-card scroll-reveal" style="animation-delay: 0.15s;">
+                        <h3>Send A Direct Message</h3>
+                        <form id="contact-form" novalidate>
+                            <div class="form-group">
+                                <label for="form-name">Your Full Name</label>
+                                <div class="input-wrapper">
+                                    <i class="fa-regular fa-user"></i>
+                                    <input type="text" id="form-name" placeholder="e.g. Alex Turner" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="form-email">Your Email Address</label>
+                                <div class="input-wrapper">
+                                    <i class="fa-regular fa-envelope"></i>
+                                    <input type="email" id="form-email" placeholder="name@company.com" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="form-message">Message</label>
+                                <div class="input-wrapper textarea-wrapper">
+                                    <i class="fa-regular fa-comment-dots"></i>
+                                    <textarea id="form-message" rows="5"
+                                        placeholder="Hi Jeremiah, I'd like to discuss a cybersecurity or software engineering opportunity..."
+                                        required></textarea>
+                                </div>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-block">
+                                <span>Send Message</span>
+                                <i class="fa-solid fa-paper-plane"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-left">
+                <a href="#hero" class="brand-logo">
+                    <span class="logo-terminal-symbol">&gt;_</span>
+                    <span class="logo-text">Jeremiah<span class="highlight">.Ajala</span></span>
+                </a>
+                <p class="footer-copy">
+                    &copy; 2026 Jeremiah Ajala. Built with a security-first mindset. All rights reserved.
+                </p>
+            </div>
+
+            <div class="footer-right">
+                <a href="#hero" class="back-to-top" aria-label="Back to top">
+                    <i class="fa-solid fa-chevron-up"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Project Detail Modal -->
+    <div id="project-modal" class="modal-overlay" aria-hidden="true">
+        <div class="modal-container glass-card">
+            <button id="modal-close" aria-label="Close modal"><i class="fa-solid fa-xmark"></i></button>
+            <div id="modal-body">
+                <!-- Dynamically Populated by script.js -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Notification Toast -->
+    <div id="toast" class="toast-notification">
+        <i id="toast-icon" class="fa-solid fa-circle-check"></i>
+        <span id="toast-message">Message sent successfully!</span>
+    </div>
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+</body>
+
+</html>
